@@ -1,6 +1,6 @@
 ---
 layout: post
-title: CellRobot I 
+title: 图书馆取书机器人
 ---
 
 Cellrobot is a modular robot, where the basic module aka "cell" can be attached to one another to form robots of all kinds of shapes and functions. Each "cell" have six attachable faces and a motor to allow it to spin by itself. By attaching cells together it gains DoF and can perform various actions as required. This version also had a detachable camera that can be installed to further expand it's capabilities. This project have later evolved into a startup company.
