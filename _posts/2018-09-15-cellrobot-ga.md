@@ -1,18 +1,30 @@
 ---
 layout: post
-title: Learning to Adapt Modular Robot Locomotion with CPG-based Hierarchical Control
+title: CellRobot I 
 ---
 
-Jiayu Wang, Chuxiong Hu, Yu Zhu
+Cellrobot is a modular robot, where the basic module aka "cell" can be attached to one another to form robots of all kinds of shapes and functions. Each "cell" have six attachable faces and a motor to allow it to spin by itself. By attaching cells together it gains DoF and can perform various actions as required. This version also had a detachable camera that can be installed to further expand it's capabilities. This project have later evolved into a startup company.
 
+本项目是一种可变球形母体机器人，根据不同地形环境可变形成为不同形态，既可在复杂地形中行进，又可在平坦环境中滚动前进，极大地提高了对环境的适应能力，同时利用球形的体积最大化的优点搭载小型无人机实现了母体机器人搭载平台的设想。
+本项目设计的可变形球形搭载平台，可靠性高，机械原理简单，行动快速、准确，运动灵活，操纵简单，实现了基本的控制功能并能完成相应的任务，可以应用于工业和军事等领域。
 
-### Abstract
-Modular Robots provide high versatility from the ability to reconfigure new morphologies that are better and more efficient for new tasks than conventional robots. However, the design of adaptive and efficient locomotion controllers for arbitrary modular robot structures is challenging. In this paper, we present a two-level hierarchical framework that generates stable rhythmic pattern and automatically learns to quickly and effectively adapt to new situations. Lower level control scheme uses a simplified Central Pattern Generator(CPG) network to produce a stable gait for a given structure of a modular robot, leading to rich locomotion patterns. A neural network as the higher level controller can modulate the parameters of CPG to adapt to new situations and achieve high performance. Here we use simulated robots made of CellRobot modules that have eight mechanical interfaces and one degree of freedom each. This framework is evaluated on multiple locomotion tasks for several robot morphologies in simulation. The results show that our proposed approach can enable robots to adapt the desired trajectory quickly with sample efficiency, and can outperform other state-of-the-art concepts in terms of generalizations capabilities and efficiency.
-
+* 第13届全国挑战杯科技作品竞赛全国一等奖
+* 2013年度首都“挑战杯”科技作品竞赛特等奖
+* 北航第22届“冯如杯”科技作品一等奖、创新奖
+* 获得授权国家专利两项 
  
- 
-![“图片描述”](/images/locomotion.png)
+![“图片描述”](/images/cellrobot-diverse.png)
+![“图片描述”](/images/cellrobot-snake.jpg)
+![“图片描述”](/images/cellrobot-quadruped.jpg)
 
-The process of turning locomotion. In this setting, Cellrobot starts at origin at the same time the desired direction is given( red ball). A trained high-level learner can guide the robot to learning to turn correct direction
- 
-It's pre-printed.
+<iframe
+height=480 width=720
+src="https://v.youku.com/v_show/id_XMzE3NjI3MzU5Mg==.html?s=cc008d1a962411de83b1"
+frameborder=0 allowfullscreen>
+</iframe>
+
+[Jekyll](http://jekyllrb.com) is a static site generator, an open-source tool for creating simple yet powerful websites of all shapes and sizes. From [the project's readme](https://github.com/jekyll/jekyll/blob/master/README.markdown):
+
+> Jekyll is a simple, blog aware, static site generator. It takes a template directory [...] and spits out a complete, static website suitable for serving with Apache or your favorite web server. This is also the engine behind GitHub Pages, which you can use to host your project’s page or blog right here from GitHub.
+
+It's an immensely useful tool. Find out more by [visiting the project on GitHub](https://github.com/jekyll/jekyll).
