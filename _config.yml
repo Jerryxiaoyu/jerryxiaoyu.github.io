@@ -1,12 +1,12 @@
 # Permalinks
-permalink:           Wang
+permalink:           pretty
 
 # Setup
 title:               Wang Jiayu
 tagline:             Ph.d student/Entrepreneur
 url:                 http://wangjiayu.com.cn
 paginate:            1
-baseurl:             "http://wangjiayu.com.cn"
+baseurl:             ""
 
 # Assets
 #
