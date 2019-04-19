@@ -2,6 +2,7 @@
 layout: post
 title: CPG-based Hierarchical Control for Quadrupedal Locomotion Using Deep Reinforcement Learning
 ---
+
 Jiayu Wang, Chuxiong Hu, Yu Zhu
 
 ### Abstract
