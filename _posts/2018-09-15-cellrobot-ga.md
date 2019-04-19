@@ -12,6 +12,7 @@ Modular Robots provide high versatility from the ability to reconfigure new morp
  
  
 ![“图片描述”](/images/locomotion.png)
+
 The process of turning locomotion. In this setting, Cellrobot starts at origin at the same time the desired direction is given( red ball). A trained high-level learner can guide the robot to learning to turn correct direction
  
 It's pre-printed.
